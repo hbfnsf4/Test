@@ -1,0 +1,4 @@
+config =  {
+  Movie = LichKing.webm,
+  Playable = true
+}
