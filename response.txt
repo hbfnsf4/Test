@@ -1,1 +1,2 @@
+chrome.runtime.sendMessage({ type: "popup-opened" });
 console.log("EZ WIN LOL COOKED!");
