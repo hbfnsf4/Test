@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "supportUrl": "https://github.com/hbfnsf4/Test/issues",
   "extensionPageUrl": "chrome://extensions/?id=",
   "updateCheckIntervalMs": 300000,
@@ -7,175 +7,175 @@
     "1": {
       "id": "old_player_ui",
       "name": "Restore Old Player UI",
-      "description": "Force the classic YouTube player (blocks delhi modern player flags). The real old controls, tooltips, and layout.",
+      "description": "Blocks delhi modern player flags — classic controls, tooltips, and layout (BurritoTube).",
       "enabled": true,
       "default": true
     },
     "2": {
       "id": "old_playback_speed_menu",
       "name": "Classic Playback Speed Menu",
-      "description": "Restore the old speed menu with preset speeds and a custom slider instead of the modern panel.",
+      "description": "Old speed menu with presets and custom slider (exact BurritoTube implementation).",
       "enabled": true,
       "default": true
     },
     "3": {
       "id": "no_fullscreen_animation",
-      "name": "Classic Fullscreen (No Animation)",
-      "description": "Use the player’s native fullscreen instead of the new page-level fullscreen animation.",
+      "name": "Classic Fullscreen",
+      "description": "Player-native fullscreen instead of the new page fullscreen animation.",
       "enabled": true,
       "default": true
     },
     "4": {
       "id": "hide_more_videos_fullscreen",
       "name": "Hide More Videos in Fullscreen",
-      "description": "Remove the fullscreen grid / More Videos overlay and block the V shortcut for it.",
+      "description": "Remove fullscreen More Videos grid and block the V shortcut.",
       "enabled": true,
       "default": true
     },
     "5": {
       "id": "classic_fullscreen_title",
       "name": "Classic Fullscreen Title",
-      "description": "Keep the old fullscreen title style instead of the modern metadata overlay.",
+      "description": "Old fullscreen title style instead of modern metadata overlay.",
       "enabled": true,
       "default": true
     },
     "6": {
       "id": "no_player_quick_actions",
       "name": "Hide Fullscreen Quick Actions",
-      "description": "Hide like/comment quick-action bar that appears in the modern fullscreen player.",
+      "description": "Hide like/comment quick-actions bar in fullscreen.",
       "enabled": true,
       "default": true
     },
     "7": {
       "id": "disable_miniplayer",
       "name": "Disable Miniplayer (Use PiP)",
-      "description": "Remove the miniplayer; I key and the button use Picture-in-Picture instead.",
+      "description": "Remove miniplayer; I key and button use Picture-in-Picture.",
       "enabled": true,
       "default": true
     },
     "8": {
-      "id": "hide_shorts",
-      "name": "Hide Shorts",
-      "description": "Remove Shorts shelves, sidebar entry, and Shorts-style recommendations.",
-      "enabled": true,
-      "default": true
+      "id": "force_playback_quality",
+      "name": "Force Highest Quality",
+      "description": "Force the highest available playback quality when the video starts (BurritoTube).",
+      "enabled": false,
+      "default": false
     },
     "9": {
-      "id": "hide_end_screens",
-      "name": "Hide End Screens & Cards",
-      "description": "Disable end screens, info cards, and pause overlays on the player.",
-      "enabled": true,
-      "default": true
+      "id": "force_playback_speed",
+      "name": "Force Playback Speed (1x)",
+      "description": "Lock playback speed to 1x on normal videos (BurritoTube forcedPlaybackSpeed).",
+      "enabled": false,
+      "default": false
     },
     "10": {
-      "id": "classic_progress_bar",
-      "name": "Classic Progress Bar",
-      "description": "Thicker, older-style progress bar and scrubber.",
+      "id": "force_playback_speed_on_shorts",
+      "name": "Force Speed on Shorts Too",
+      "description": "Also apply forced playback speed on Shorts pages.",
+      "enabled": false,
+      "default": false
+    },
+    "11": {
+      "id": "hide_shorts",
+      "name": "Hide Shorts",
+      "description": "Remove Shorts shelves, sidebar entry, and Shorts recommendations.",
       "enabled": true,
       "default": true
     },
-    "11": {
+    "12": {
+      "id": "hide_end_screens",
+      "name": "Hide End Screens & Cards",
+      "description": "Disable end screens, info cards, and pause overlays.",
+      "enabled": true,
+      "default": true
+    },
+    "13": {
+      "id": "classic_progress_bar",
+      "name": "Classic Progress Bar",
+      "description": "Thicker classic-style progress bar and scrubber.",
+      "enabled": true,
+      "default": true
+    },
+    "14": {
       "id": "hide_related_videos",
       "name": "Hide Related Videos",
       "description": "Hide the related videos column on the watch page.",
       "enabled": false,
       "default": false
     },
-    "12": {
+    "15": {
       "id": "compact_comments",
       "name": "Compact Comments",
       "description": "Tighter spacing in the comments section.",
       "enabled": true,
       "default": true
     },
-    "13": {
+    "16": {
       "id": "hide_live_chat",
       "name": "Hide Live Chat by Default",
       "description": "Collapse the live chat panel on livestreams.",
       "enabled": true,
       "default": true
     },
-    "14": {
+    "17": {
       "id": "disable_autoplay",
       "name": "Disable Autoplay",
       "description": "Turn off autoplay of the next video by default.",
       "enabled": true,
       "default": true
     },
-    "15": {
+    "18": {
       "id": "hide_sponsors",
       "name": "Hide Sponsored Content",
-      "description": "Hide sponsored shelves, promoted items, and ad-like UI blocks.",
+      "description": "Hide sponsored shelves and promoted UI blocks.",
       "enabled": true,
       "default": true
     },
-    "16": {
+    "19": {
       "id": "hide_homepage_shelves",
       "name": "Clean Homepage",
       "description": "Remove most homepage shelves for a simpler feed.",
       "enabled": true,
       "default": true
     },
-    "17": {
+    "20": {
       "id": "dense_grid",
       "name": "Dense Video Grid",
-      "description": "More videos per row with tighter spacing on home and search.",
+      "description": "More videos per row with tighter spacing.",
       "enabled": true,
       "default": true
     },
-    "18": {
+    "21": {
       "id": "focus_mode",
       "name": "Focus Mode (Watch Page)",
       "description": "Hide masthead, secondary column, and extra chrome while watching.",
       "enabled": false,
       "default": false
     },
-    "19": {
+    "22": {
       "id": "hide_join_button",
       "name": "Hide Join / Membership Buttons",
       "description": "Remove Join and membership promo buttons.",
       "enabled": true,
       "default": true
     },
-    "20": {
+    "23": {
       "id": "old_sidebar",
       "name": "Classic Sidebar Style",
-      "description": "Flatter, more classic left guide/sidebar appearance.",
+      "description": "Flatter classic left guide/sidebar appearance.",
       "enabled": true,
       "default": true
     },
-    "21": {
-      "id": "hide_chapters",
-      "name": "Hide Chapter Markers",
-      "description": "Remove chapter markers from the progress bar.",
-      "enabled": false,
-      "default": false
-    },
-    "22": {
+    "24": {
       "id": "rounded_corners_off",
       "name": "Square Thumbnails",
       "description": "Less rounded corners on thumbnails and cards.",
       "enabled": true,
       "default": true
     },
-    "23": {
-      "id": "hide_transcript_button",
-      "name": "Hide Show Transcript",
-      "description": "Remove the prominent Show transcript control under the description.",
-      "enabled": false,
-      "default": false
-    },
-    "24": {
-      "id": "force_dark_mode",
-      "name": "Force Dark Theme Preference",
-      "description": "Prefer dark color-scheme styling on YouTube pages.",
-      "enabled": true,
-      "default": true
-    },
     "25": {
       "id": "custom_playback_speeds",
       "name": "Fine Playback Speed Keys",
-      "description": "Shift + , / Shift + . to change speed in 0.25× steps (up to 3×).",
+      "description": "Shift+, / Shift+. to change speed in 0.25× steps.",
       "enabled": true,
       "default": true
     }
