@@ -1,181 +1,181 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "supportUrl": "https://github.com/hbfnsf4/Test/issues",
   "extensionPageUrl": "chrome://extensions/?id=",
   "updateCheckIntervalMs": 300000,
   "features": {
     "1": {
-      "id": "old_watch_ui",
-      "name": "Old Watch Page UI",
-      "description": "Restore the classic YouTube watch page layout with sidebar on the right and compact player controls.",
+      "id": "old_player_ui",
+      "name": "Restore Old Player UI",
+      "description": "Force the classic YouTube player (blocks delhi modern player flags). The real old controls, tooltips, and layout.",
       "enabled": true,
       "default": true
     },
     "2": {
-      "id": "hide_shorts",
-      "name": "Hide Shorts",
-      "description": "Remove Shorts shelf, Shorts button in sidebar, and Shorts recommendations.",
+      "id": "old_playback_speed_menu",
+      "name": "Classic Playback Speed Menu",
+      "description": "Restore the old speed menu with preset speeds and a custom slider instead of the modern panel.",
       "enabled": true,
       "default": true
     },
     "3": {
-      "id": "hide_end_screens",
-      "name": "Hide End Screens & Cards",
-      "description": "Disable end screens, cards, and annotations that appear over the video.",
+      "id": "no_fullscreen_animation",
+      "name": "Classic Fullscreen (No Animation)",
+      "description": "Use the player’s native fullscreen instead of the new page-level fullscreen animation.",
       "enabled": true,
       "default": true
     },
     "4": {
-      "id": "classic_progress_bar",
-      "name": "Classic Progress Bar",
-      "description": "Use the older, thicker progress bar style instead of the thin modern one.",
+      "id": "hide_more_videos_fullscreen",
+      "name": "Hide More Videos in Fullscreen",
+      "description": "Remove the fullscreen grid / More Videos overlay and block the V shortcut for it.",
       "enabled": true,
       "default": true
     },
     "5": {
-      "id": "hide_related_videos",
-      "name": "Hide Related Videos",
-      "description": "Hide the related videos sidebar on the watch page (can be toggled per session).",
-      "enabled": false,
-      "default": false
+      "id": "classic_fullscreen_title",
+      "name": "Classic Fullscreen Title",
+      "description": "Keep the old fullscreen title style instead of the modern metadata overlay.",
+      "enabled": true,
+      "default": true
     },
     "6": {
-      "id": "compact_comments",
-      "name": "Compact Comments",
-      "description": "Make the comments section more compact and reduce excessive spacing.",
+      "id": "no_player_quick_actions",
+      "name": "Hide Fullscreen Quick Actions",
+      "description": "Hide like/comment quick-action bar that appears in the modern fullscreen player.",
       "enabled": true,
       "default": true
     },
     "7": {
-      "id": "hide_live_chat",
-      "name": "Hide Live Chat by Default",
-      "description": "Collapse live chat panel automatically on livestreams.",
+      "id": "disable_miniplayer",
+      "name": "Disable Miniplayer (Use PiP)",
+      "description": "Remove the miniplayer; I key and the button use Picture-in-Picture instead.",
       "enabled": true,
       "default": true
     },
     "8": {
-      "id": "old_player_controls",
-      "name": "Old Player Controls",
-      "description": "Restore classic player button layout and tooltips style.",
+      "id": "hide_shorts",
+      "name": "Hide Shorts",
+      "description": "Remove Shorts shelves, sidebar entry, and Shorts-style recommendations.",
       "enabled": true,
       "default": true
     },
     "9": {
-      "id": "disable_autoplay",
-      "name": "Disable Autoplay",
-      "description": "Turn off autoplay of next video by default.",
+      "id": "hide_end_screens",
+      "name": "Hide End Screens & Cards",
+      "description": "Disable end screens, info cards, and pause overlays on the player.",
       "enabled": true,
       "default": true
     },
     "10": {
-      "id": "hide_sponsors",
-      "name": "Hide Sponsored Content",
-      "description": "Hide sponsored shelves, paid promotion labels, and some ad-like UI elements.",
+      "id": "classic_progress_bar",
+      "name": "Classic Progress Bar",
+      "description": "Thicker, older-style progress bar and scrubber.",
       "enabled": true,
       "default": true
     },
     "11": {
-      "id": "theater_mode_default",
-      "name": "Theater Mode by Default",
-      "description": "Open videos in theater mode automatically.",
+      "id": "hide_related_videos",
+      "name": "Hide Related Videos",
+      "description": "Hide the related videos column on the watch page.",
       "enabled": false,
       "default": false
     },
     "12": {
-      "id": "hide_homepage_shelves",
-      "name": "Clean Homepage",
-      "description": "Remove most homepage shelves (Shorts, Trending, etc.) leaving a cleaner feed.",
+      "id": "compact_comments",
+      "name": "Compact Comments",
+      "description": "Tighter spacing in the comments section.",
       "enabled": true,
       "default": true
     },
     "13": {
-      "id": "old_logo",
-      "name": "Classic YouTube Logo",
-      "description": "Replace the modern logo with a more classic look where possible.",
+      "id": "hide_live_chat",
+      "name": "Hide Live Chat by Default",
+      "description": "Collapse the live chat panel on livestreams.",
       "enabled": true,
       "default": true
     },
     "14": {
-      "id": "dense_grid",
-      "name": "Dense Video Grid",
-      "description": "Show more videos per row with tighter spacing on home and search.",
+      "id": "disable_autoplay",
+      "name": "Disable Autoplay",
+      "description": "Turn off autoplay of the next video by default.",
       "enabled": true,
       "default": true
     },
     "15": {
-      "id": "hide_notifications",
-      "name": "Mute Notification Bell Style",
-      "description": "Visually de-emphasize the notification bell and reduce badge prominence.",
-      "enabled": false,
-      "default": false
+      "id": "hide_sponsors",
+      "name": "Hide Sponsored Content",
+      "description": "Hide sponsored shelves, promoted items, and ad-like UI blocks.",
+      "enabled": true,
+      "default": true
     },
     "16": {
-      "id": "focus_mode",
-      "name": "Focus Mode (Watch Page)",
-      "description": "Hide masthead, secondary columns, and extra UI while watching for distraction-free viewing.",
-      "enabled": false,
-      "default": false
+      "id": "hide_homepage_shelves",
+      "name": "Clean Homepage",
+      "description": "Remove most homepage shelves for a simpler feed.",
+      "enabled": true,
+      "default": true
     },
     "17": {
-      "id": "restore_dislike_count",
-      "name": "Show Approximate Dislikes",
-      "description": "Attempt to surface approximate dislike information when available via public sources.",
+      "id": "dense_grid",
+      "name": "Dense Video Grid",
+      "description": "More videos per row with tighter spacing on home and search.",
       "enabled": true,
       "default": true
     },
     "18": {
-      "id": "custom_playback_speeds",
-      "name": "Extra Playback Speeds",
-      "description": "Add finer-grained playback speed options (0.25x steps and higher speeds).",
-      "enabled": true,
-      "default": true
+      "id": "focus_mode",
+      "name": "Focus Mode (Watch Page)",
+      "description": "Hide masthead, secondary column, and extra chrome while watching.",
+      "enabled": false,
+      "default": false
     },
     "19": {
       "id": "hide_join_button",
-      "name": "Hide Channel Join / Membership Buttons",
-      "description": "Remove Join and membership promotion buttons from channel pages and watch page.",
+      "name": "Hide Join / Membership Buttons",
+      "description": "Remove Join and membership promo buttons.",
       "enabled": true,
       "default": true
     },
     "20": {
       "id": "old_sidebar",
       "name": "Classic Sidebar Style",
-      "description": "Make the left guide/sidebar closer to the older YouTube look (compact icons + labels).",
+      "description": "Flatter, more classic left guide/sidebar appearance.",
       "enabled": true,
       "default": true
     },
     "21": {
-      "id": "disable_miniplayer",
-      "name": "Disable Miniplayer",
-      "description": "Prevent the miniplayer from appearing when navigating away from a video.",
+      "id": "hide_chapters",
+      "name": "Hide Chapter Markers",
+      "description": "Remove chapter markers from the progress bar.",
       "enabled": false,
       "default": false
     },
     "22": {
-      "id": "hide_chapters",
-      "name": "Hide Chapter Markers",
-      "description": "Remove chapter markers from the progress bar for a cleaner look.",
-      "enabled": false,
-      "default": false
-    },
-    "23": {
       "id": "rounded_corners_off",
-      "name": "Square Thumbnails / Less Rounding",
-      "description": "Reduce modern rounded corners on thumbnails and cards for a flatter classic feel.",
+      "name": "Square Thumbnails",
+      "description": "Less rounded corners on thumbnails and cards.",
       "enabled": true,
       "default": true
     },
-    "24": {
+    "23": {
       "id": "hide_transcript_button",
-      "name": "Hide Show Transcript Button",
-      "description": "Remove the prominent 'Show transcript' button under the description.",
+      "name": "Hide Show Transcript",
+      "description": "Remove the prominent Show transcript control under the description.",
       "enabled": false,
       "default": false
     },
-    "25": {
+    "24": {
       "id": "force_dark_mode",
-      "name": "Force Dark Theme",
-      "description": "Prefer dark theme styling across YouTube pages when possible.",
+      "name": "Force Dark Theme Preference",
+      "description": "Prefer dark color-scheme styling on YouTube pages.",
+      "enabled": true,
+      "default": true
+    },
+    "25": {
+      "id": "custom_playback_speeds",
+      "name": "Fine Playback Speed Keys",
+      "description": "Shift + , / Shift + . to change speed in 0.25× steps (up to 3×).",
       "enabled": true,
       "default": true
     }
