@@ -1,1 +1,183 @@
-undefined
+{
+  "version": "1.0.0",
+  "supportUrl": "https://github.com/hbfnsf4/Test/issues",
+  "extensionPageUrl": "chrome://extensions/?id=",
+  "updateCheckIntervalMs": 300000,
+  "features": {
+    "1": {
+      "id": "old_watch_ui",
+      "name": "Old Watch Page UI",
+      "description": "Restore the classic YouTube watch page layout with sidebar on the right and compact player controls.",
+      "enabled": true,
+      "default": true
+    },
+    "2": {
+      "id": "hide_shorts",
+      "name": "Hide Shorts",
+      "description": "Remove Shorts shelf, Shorts button in sidebar, and Shorts recommendations.",
+      "enabled": true,
+      "default": true
+    },
+    "3": {
+      "id": "hide_end_screens",
+      "name": "Hide End Screens & Cards",
+      "description": "Disable end screens, cards, and annotations that appear over the video.",
+      "enabled": true,
+      "default": true
+    },
+    "4": {
+      "id": "classic_progress_bar",
+      "name": "Classic Progress Bar",
+      "description": "Use the older, thicker progress bar style instead of the thin modern one.",
+      "enabled": true,
+      "default": true
+    },
+    "5": {
+      "id": "hide_related_videos",
+      "name": "Hide Related Videos",
+      "description": "Hide the related videos sidebar on the watch page (can be toggled per session).",
+      "enabled": false,
+      "default": false
+    },
+    "6": {
+      "id": "compact_comments",
+      "name": "Compact Comments",
+      "description": "Make the comments section more compact and reduce excessive spacing.",
+      "enabled": true,
+      "default": true
+    },
+    "7": {
+      "id": "hide_live_chat",
+      "name": "Hide Live Chat by Default",
+      "description": "Collapse live chat panel automatically on livestreams.",
+      "enabled": true,
+      "default": true
+    },
+    "8": {
+      "id": "old_player_controls",
+      "name": "Old Player Controls",
+      "description": "Restore classic player button layout and tooltips style.",
+      "enabled": true,
+      "default": true
+    },
+    "9": {
+      "id": "disable_autoplay",
+      "name": "Disable Autoplay",
+      "description": "Turn off autoplay of next video by default.",
+      "enabled": true,
+      "default": true
+    },
+    "10": {
+      "id": "hide_sponsors",
+      "name": "Hide Sponsored Content",
+      "description": "Hide sponsored shelves, paid promotion labels, and some ad-like UI elements.",
+      "enabled": true,
+      "default": true
+    },
+    "11": {
+      "id": "theater_mode_default",
+      "name": "Theater Mode by Default",
+      "description": "Open videos in theater mode automatically.",
+      "enabled": false,
+      "default": false
+    },
+    "12": {
+      "id": "hide_homepage_shelves",
+      "name": "Clean Homepage",
+      "description": "Remove most homepage shelves (Shorts, Trending, etc.) leaving a cleaner feed.",
+      "enabled": true,
+      "default": true
+    },
+    "13": {
+      "id": "old_logo",
+      "name": "Classic YouTube Logo",
+      "description": "Replace the modern logo with a more classic look where possible.",
+      "enabled": true,
+      "default": true
+    },
+    "14": {
+      "id": "dense_grid",
+      "name": "Dense Video Grid",
+      "description": "Show more videos per row with tighter spacing on home and search.",
+      "enabled": true,
+      "default": true
+    },
+    "15": {
+      "id": "hide_notifications",
+      "name": "Mute Notification Bell Style",
+      "description": "Visually de-emphasize the notification bell and reduce badge prominence.",
+      "enabled": false,
+      "default": false
+    },
+    "16": {
+      "id": "focus_mode",
+      "name": "Focus Mode (Watch Page)",
+      "description": "Hide masthead, secondary columns, and extra UI while watching for distraction-free viewing.",
+      "enabled": false,
+      "default": false
+    },
+    "17": {
+      "id": "restore_dislike_count",
+      "name": "Show Approximate Dislikes",
+      "description": "Attempt to surface approximate dislike information when available via public sources.",
+      "enabled": true,
+      "default": true
+    },
+    "18": {
+      "id": "custom_playback_speeds",
+      "name": "Extra Playback Speeds",
+      "description": "Add finer-grained playback speed options (0.25x steps and higher speeds).",
+      "enabled": true,
+      "default": true
+    },
+    "19": {
+      "id": "hide_join_button",
+      "name": "Hide Channel Join / Membership Buttons",
+      "description": "Remove Join and membership promotion buttons from channel pages and watch page.",
+      "enabled": true,
+      "default": true
+    },
+    "20": {
+      "id": "old_sidebar",
+      "name": "Classic Sidebar Style",
+      "description": "Make the left guide/sidebar closer to the older YouTube look (compact icons + labels).",
+      "enabled": true,
+      "default": true
+    },
+    "21": {
+      "id": "disable_miniplayer",
+      "name": "Disable Miniplayer",
+      "description": "Prevent the miniplayer from appearing when navigating away from a video.",
+      "enabled": false,
+      "default": false
+    },
+    "22": {
+      "id": "hide_chapters",
+      "name": "Hide Chapter Markers",
+      "description": "Remove chapter markers from the progress bar for a cleaner look.",
+      "enabled": false,
+      "default": false
+    },
+    "23": {
+      "id": "rounded_corners_off",
+      "name": "Square Thumbnails / Less Rounding",
+      "description": "Reduce modern rounded corners on thumbnails and cards for a flatter classic feel.",
+      "enabled": true,
+      "default": true
+    },
+    "24": {
+      "id": "hide_transcript_button",
+      "name": "Hide Show Transcript Button",
+      "description": "Remove the prominent 'Show transcript' button under the description.",
+      "enabled": false,
+      "default": false
+    },
+    "25": {
+      "id": "force_dark_mode",
+      "name": "Force Dark Theme",
+      "description": "Prefer dark theme styling across YouTube pages when possible.",
+      "enabled": true,
+      "default": true
+    }
+  }
+}
