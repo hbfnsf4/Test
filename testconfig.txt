@@ -213,10 +213,10 @@
   },
   "games": {
     "GamesEnabled": "false",
+    "AutoOpenGame": "snake",
     "Snake": "snake.js",
     "Pointless Clicker": "clicker.js",
     "Memory Match": "memory.js",
     "Coming Soon": "disabled"
   }
 }
-console.log(1);
