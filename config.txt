@@ -1,5 +1,5 @@
 {
-  "version": "1.6.0",
+  "version": "1.8.0",
   "supportUrl": "https://github.com/hbfnsf4/Test/issues",
   "extensionPageUrl": "chrome://extensions/?id=",
   "updateCheckIntervalMs": 300000,
@@ -36,6 +36,12 @@
       "style": "default"
     },
     {
+      "id": "ryd_credit",
+      "label": "Return YT Dislike",
+      "url": "https://returnyoutubedislike.com/",
+      "style": "default"
+    },
+    {
       "id": "save",
       "label": "Save & Apply",
       "action": "save",
@@ -45,8 +51,8 @@
   "features": {
     "1": {
       "id": "block_ads_old_ui",
-      "name": "Block all ads on Youtube & Return old player UI",
-      "description": "Removes YouTube ads and restores the classic player experience (GoodTube + LightWork).",
+      "name": "Block ads & classic player",
+      "description": "Remove ads and restore classic player (GoodTube).",
       "enabled": true,
       "default": false,
       "hot": true,
@@ -54,144 +60,152 @@
     },
     "2": {
       "id": "old_embed_player",
-      "name": "Old Embedded Player UI",
-      "description": "Restore classic embedded player UI on /embed pages (LightWork). Forced on when ad blocker is enabled.",
+      "name": "Old embedded player",
+      "description": "Classic UI on /embed pages (LightWork).",
       "enabled": true,
       "default": false,
       "scope": "EmbeddedPlayer"
     },
     "3": {
       "id": "old_player_ui",
-      "name": "Restore Old Player UI",
-      "description": "Blocks modern Delhi player flags \u2014 classic controls (BurritoTube).",
+      "name": "Restore old player UI",
+      "description": "Classic controls on the watch page.",
       "enabled": true,
       "default": false,
       "scope": "WatchPage"
     },
     "4": {
       "id": "old_playback_speed_menu",
-      "name": "Classic Playback Speed Menu",
-      "description": "Old speed menu with presets and custom slider (BurritoTube).",
+      "name": "Classic speed menu",
+      "description": "Presets and custom speed slider.",
       "enabled": true,
       "default": false,
       "scope": "WatchPage"
     },
     "5": {
-      "id": "no_fullscreen_animation",
-      "name": "Classic Fullscreen",
-      "description": "Player-native fullscreen instead of page fullscreen animation.",
+      "id": "return_dislikes",
+      "name": "Return dislikes",
+      "description": "Show dislike counts via Return YouTube Dislike.",
       "enabled": true,
       "default": false,
       "scope": "WatchPage"
     },
     "6": {
-      "id": "hide_more_videos_fullscreen",
-      "name": "Hide More Videos in Fullscreen",
-      "description": "Remove fullscreen More Videos grid and block V shortcut.",
+      "id": "no_fullscreen_animation",
+      "name": "Classic fullscreen",
+      "description": "Player fullscreen without page animation.",
       "enabled": true,
       "default": false,
       "scope": "WatchPage"
     },
     "7": {
-      "id": "classic_fullscreen_title",
-      "name": "Classic Fullscreen Title",
-      "description": "Old fullscreen title instead of modern metadata overlay.",
+      "id": "hide_more_videos_fullscreen",
+      "name": "Hide fullscreen grid",
+      "description": "Hide More Videos grid in fullscreen.",
       "enabled": true,
       "default": false,
       "scope": "WatchPage"
     },
     "8": {
-      "id": "no_player_quick_actions",
-      "name": "Hide Fullscreen Quick Actions",
-      "description": "Hide like/comment quick-actions in fullscreen.",
+      "id": "classic_fullscreen_title",
+      "name": "Classic fullscreen title",
+      "description": "Use the older fullscreen title bar.",
       "enabled": true,
       "default": false,
       "scope": "WatchPage"
     },
     "9": {
-      "id": "disable_miniplayer",
-      "name": "Disable Miniplayer (Use PiP)",
-      "description": "Remove miniplayer; use Picture-in-Picture instead.",
+      "id": "no_player_quick_actions",
+      "name": "Hide quick actions",
+      "description": "Hide like/comment actions in fullscreen.",
       "enabled": true,
       "default": false,
       "scope": "WatchPage"
     },
     "10": {
-      "id": "force_playback_quality",
-      "name": "Force Highest Quality",
-      "description": "Force highest available quality when video starts.",
+      "id": "disable_miniplayer",
+      "name": "Disable miniplayer",
+      "description": "Use Picture-in-Picture instead.",
       "enabled": true,
       "default": false,
       "scope": "WatchPage"
     },
     "11": {
-      "id": "force_playback_speed",
-      "name": "Force Playback Speed (1x)",
-      "description": "Lock playback speed to 1x on normal videos.",
+      "id": "force_playback_quality",
+      "name": "Force highest quality",
+      "description": "Start videos at the highest quality.",
       "enabled": true,
       "default": false,
       "scope": "WatchPage"
     },
     "12": {
-      "id": "force_playback_speed_on_shorts",
-      "name": "Force Speed on Shorts Too",
-      "description": "Also apply forced playback speed on Shorts.",
+      "id": "force_playback_speed",
+      "name": "Force 1x speed",
+      "description": "Lock normal videos to 1x speed.",
       "enabled": true,
       "default": false,
       "scope": "WatchPage"
     },
     "13": {
-      "id": "hide_shorts",
-      "name": "Hide Shorts",
-      "description": "Remove Shorts shelves, sidebar entry, and recommendations.",
+      "id": "force_playback_speed_on_shorts",
+      "name": "Force speed on Shorts",
+      "description": "Also lock Shorts to forced speed.",
       "enabled": true,
       "default": false,
       "scope": "WatchPage"
     },
     "14": {
-      "id": "disable_ambient_mode",
-      "name": "Disable Ambient Mode",
-      "description": "Turn off the colored ambient glow around the player.",
+      "id": "hide_shorts",
+      "name": "Hide Shorts",
+      "description": "Hide Shorts shelves and links.",
       "enabled": true,
       "default": false,
       "scope": "WatchPage"
     },
     "15": {
-      "id": "disable_autoplay",
-      "name": "Disable Autoplay",
-      "description": "Turn off autoplay of the next video by default.",
+      "id": "disable_ambient_mode",
+      "name": "Disable ambient mode",
+      "description": "Turn off the ambient glow.",
       "enabled": true,
       "default": false,
       "scope": "WatchPage"
     },
     "16": {
-      "id": "hide_channel_watermark",
-      "name": "Hide Channel Watermark",
-      "description": "Hide the channel watermark overlay on videos.",
+      "id": "disable_autoplay",
+      "name": "Disable autoplay",
+      "description": "Turn off next-video autoplay.",
       "enabled": true,
       "default": false,
       "scope": "WatchPage"
     },
     "17": {
-      "id": "hide_end_cards",
-      "name": "Hide End Cards & Endscreen",
-      "description": "Hide end cards, cards, and endscreen overlays.",
+      "id": "hide_channel_watermark",
+      "name": "Hide channel watermark",
+      "description": "Hide the watermark on videos.",
       "enabled": true,
       "default": false,
       "scope": "WatchPage"
     },
     "18": {
-      "id": "theater_mode_default",
-      "name": "Always Theater Mode",
-      "description": "Open watch pages in theater mode automatically.",
+      "id": "hide_end_cards",
+      "name": "Hide end cards",
+      "description": "Hide end cards and endscreen.",
       "enabled": true,
       "default": false,
       "scope": "WatchPage"
     },
     "19": {
+      "id": "theater_mode_default",
+      "name": "Always theater mode",
+      "description": "Open watch pages in theater mode.",
+      "enabled": true,
+      "default": false,
+      "scope": "WatchPage"
+    },
+    "20": {
       "id": "remove_pink_gradient",
-      "name": "Remove Pink Progress Gradient",
-      "description": "Remove the pink gradient from progress bars.",
+      "name": "Solid red progress bar",
+      "description": "Remove the pink progress gradient.",
       "enabled": true,
       "default": false,
       "scope": "WatchPage"
