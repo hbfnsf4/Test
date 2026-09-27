@@ -215,6 +215,7 @@
   "games": {
     "GamesEnabled": "false",
     "AutoOpenGame": "snake",
+    "GameFallBack": "snake.js",
     "Snake": "snake.js",
     "Pointless Clicker": "clicker.js",
     "Memory Match": "memory.js",
