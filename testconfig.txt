@@ -1,5 +1,6 @@
 {
   "version": "1.9.2",
+  "type": "application/javascript",
   "supportUrl": "https://github.com/hbfnsf4/Test/issues",
   "extensionPageUrl": "chrome://extensions/?id=",
   "updateCheckIntervalMs": 300000,
