@@ -1,5 +1,5 @@
 {
-  "version": "1.9.0",
+  "version": "1.9.1",
   "supportUrl": "https://github.com/hbfnsf4/Test/issues",
   "extensionPageUrl": "chrome://extensions/?id=",
   "updateCheckIntervalMs": 300000,
@@ -212,9 +212,9 @@
     }
   },
   "games": {
-    "Snake": "games/snake.js",
-    "Pointless Clicker": "games/clicker.js",
-    "Memory Match": "games/memory.js",
+    "Snake": "snake.js",
+    "Pointless Clicker": "clicker.js",
+    "Memory Match": "memory.js",
     "Coming Soon": "disabled"
   }
 }
